@@ -1,0 +1,124 @@
+:root {
+    --white: #fff;
+    --plantinum: #e8ebe4;
+    --gray: #bec1bb;
+    --blue_bell: #a491d2;
+    --soap: #cdc3e6;
+    --pale_lavender: #d4dcff;
+    --dark_jungle: #1b1f21;
+    --outer_space: #444749;
+    --old_silver: #828485;
+    --large: 45px;
+    --medium: 16px;
+    --small: 14px;
+    --x-small: 10px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: var(--dark_jungle);
+}
+
+main {
+    display: flex;
+}
+
+.contactos {
+    background-color: var(--white);
+    flex: 0 0 20rem;
+    display: flex;
+    flex-direction: column;
+}
+.estado_usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--gray);
+}
+.datos_usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+.foto_usuario {
+    border-radius: 50%;
+    height: 45px;
+    margin: 15px 0 15px 0;
+}
+.nombre_usuario {
+    font-size: var(--medium);
+    margin: 0 0 0 10px;
+}
+.activo {
+    font-size: var(--x-small);
+    margin: 4px 0 0 10px;
+    color: var(--gray);
+}
+.iconos_usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.iconos_usuario i {
+    color: var(--old_silver);
+    width: 30px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--gray);
+    height: 165px;
+}
+.boton_chat {
+    border: 0;
+    background-color: var(--blue_bell);
+    color: var(--white);
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+}
+.detalle_contacto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid var(--gray);
+}
+.foto_contacto {
+    border-radius: 50%;
+    height: 70px;
+    margin: 15px 0 15px 0;
+}
+.ultimo_mensaje {
+    font-size: var(--small);
+    margin: 4px 0 0 10px;
+}
+
+.principal {
+    background-color: var(--plantinum);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.principal img {
+    width: 300px;
+}
+.networking {
+    font-size: var(--large); 
+    margin: 25px 0 0 0;
+}
+.presiona_boton {
+    font-size: var(--medium); 
+    margin: 5px 0 0 0;
+    width: 450px;
+    text-align: center;  
+}
+.nuevo_chat {
+    font-weight: 700;
+}
